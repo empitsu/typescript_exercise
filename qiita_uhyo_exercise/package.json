@@ -1,0 +1,15 @@
+{
+  "name": "qiita_uhyo_exercise",
+  "version": "1.0.0",
+  "description": "https://qiita.com/uhyo/items/0e7821ce494024c98da5",
+  "repository": "https://github.com/empitsu/typescript_exercise/qiita_uhyo_exercise",
+  "author": "empitsu",
+  "license": "UNLICENSED",
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
