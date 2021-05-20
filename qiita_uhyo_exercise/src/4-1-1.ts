@@ -1,13 +1,6 @@
-namespace T4_1 {
-  type ObjectHasFoo = {
-    foo: any;
-  };
-
-  type SomeObject = { [k: string]: any };
-
-  function getFoo<T extends SomeObject>(
-    obj: T
-  ): T extends ObjectHasFoo ? T["foo"] : unknown {
+//別解1
+namespace T4_1_1 {
+  function getFoo<T extends Record<string, any>>(obj: T): T["foo"] {
     return obj.foo;
   }
 
